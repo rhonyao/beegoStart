@@ -1,0 +1,95 @@
+@import '../../../styles/common.less';
+.create{
+    position: relative;
+    width: 95%;
+    max-width: 500px;
+    min-width: 200px;
+    height: auto;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: @box-shadowhover;
+    overflow: auto;
+    .panel{
+        position: relative;
+        padding: 2px;
+        padding-top: 20px;
+        height: auto;
+        overflow: auto;
+        margin-bottom: 100px;
+        .logo{
+            width: 100px;
+            margin: 0 auto;
+            img{
+                width: 90px;
+                margin-bottom: 20px;
+            }
+        }
+        .md-input-horizon{
+            width: 80%;
+            margin: 0 auto;
+            .captcha{
+                position: relative;
+                top: 2px;
+                right: 4px;
+                cursor: pointer;
+                width: 120px;
+                height: 40px;
+                background: #f3f3f3;
+                border-radius: 3px;
+            }
+        }
+        .md-button-horizon{
+            width: 80%;
+            margin: 0 auto;
+            .md-button{
+                display: block;
+                width: 100%;
+                margin: 0;
+                margin-bottom: 23px;
+                height: 45px;
+            }
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        background: #ffffff;
+        padding: 5px;
+        padding-bottom: 10px;
+        width: 100%;
+        height: auto;
+        min-height: 55px;
+        box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+        .iconGroups{
+            width: 50px;
+            margin: 0 auto;
+            .md-button{
+                float: left;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.md-input-horizon{
+    width: 80%;
+    margin: 0 auto;
+    .captcha{
+        position: relative;
+        top: 2px;
+        right: 4px;
+        cursor: pointer;
+        width: 120px;
+        height: 40px;
+        background: #f3f3f3;
+        border-radius: 3px;
+    }
+}
+
+.captchaProptDialogue{
+    width: 400px;
+    .md-tabs-navigation{
+        display: none;
+    }
+}

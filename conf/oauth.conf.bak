@@ -1,0 +1,11 @@
+[oauth]
+githubAccesstoken = https://github.com/login/oauth/access_token
+githubUserInfo = https://api.github.com/user
+
+githubClientId_dev = 
+githubClientSecret_dev = 
+githubClientCallback_dev = http://api.laruc.cc/api/v1/auth/github/login
+
+githubClientId_prod = 
+githubClientSecret_prod = 
+githubClientCallback_prod = http://api.golang.pw/api/v1/auth/github/login

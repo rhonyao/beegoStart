@@ -1,0 +1,11 @@
+export const GETTERS_PRICE_CAT = "getters/priceCat";
+export const GETTERS_REGIONS = "getters/regions";
+export const GETTERS_APPID = "getters/appid";
+export const GETTERS_USER = "getters/user";
+export const GETTERS_LOGIN = "getters/login";
+export const GETTERS_DASHBOARD_CONFIG = "getters/dashboard/config";
+export const MUTATION_REGIONS = "mutation/regions";
+export const MUTATION_APPID = "mutation/appid";
+export const MUTATION_USER = "mutation/user";
+export const MUTATION_LOGIN = "mutation/login";
+export const MUTATION_DASHBOARD_CONFIG = "mutation/dashboard/config";

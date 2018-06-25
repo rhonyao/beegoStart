@@ -1,0 +1,6 @@
+[message]
+provider = 253.com
+account = 
+password = 
+sign = 【TEST】
+template = 用户您好，您的账户正在进行操作验证码是${var}，验证码千万不能告诉任何人

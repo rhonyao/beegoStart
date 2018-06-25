@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<title>绑定账号</title>
+<style type="text/css">
+body {margin: 0px; padding:0px; font-family:"微软雅黑", Arial, "Trebuchet MS", Verdana, Georgia,Baskerville,Palatino,Times; font-size:16px;}
+div{margin-left:auto; margin-right:auto;}
+a {text-decoration: none; color: #1064A0;}
+a:hover {color: #0078D2;}
+img { border:none; }
+h1,h2,h3,h4 {
+/*	display:block;*/
+	margin:0;
+	font-weight:normal; 
+	font-family: "微软雅黑", Arial, "Trebuchet MS", Helvetica, Verdana ; 
+}
+h1{font-size:44px; color:#0188DE; padding:20px 0px 10px 0px;}
+h2{color:#0188DE; font-size:16px; padding:10px 0px 40px 0px;}
+
+#page{padding:20px 20px 40px 20px;}
+.button{width:300px; height: 38px; margin-left:0px; margin-top:10px; background:#009CFF; text-align:center;border-radius: 50px;}
+.button a{width:300px; line-height:38px; display:block; font-size:14px; color:#fff;}
+.button:hover{ background:#5BBFFF;}
+.reg{width:300px; height: 38px; margin-left:0px; margin-top:10px; background:rgb(22, 146, 93); text-align:center;border-radius: 50px;}
+.reg a{width:300px; line-height:38px; display:block; font-size:14px; color:#fff;}
+.reg:hover{ background: rgb(17, 119, 76);}
+.quit{width:300px; height: 38px; margin-left:0px; margin-top:10px; background:rgb(201, 201, 201); text-align:center;border-radius: 50px;}
+.quit a{width:300px; line-height:38px; display:block; font-size:14px; color:#fff;}
+.quit:hover{ background:rgb(148, 148, 148);}
+</style>
+
+</head>
+<body>
+
+
+<div id="page" style="line-height:30px;">
+	<h1>绑定{{.oauthType}}账号</h1>
+	<h2>您的账号还没绑定，您需要绑定账号后继续操作。 </h2>
+	<font color="#666666">您可以选择下面的操作，登录或创建后，您的第三方登录账号将直接自动绑定。下次登录时，即可使用绑定的第三方账号进行登录。</font><br /><br />
+	<div class="button">
+		<a href="../../../oauth/#/login?redirect=" title="登录">前往登录，自动绑定</a>
+	</div>
+	<div class="reg">
+		<a  href="../../../oauth/#/create" title="登录">我没有账号，注册后登录自动绑定</a>
+	</div>
+	<div class="quit">
+		<a href="javascript:history.go(-1);" title="返回">取消</a>
+	</div>
+</div>
+
+
+
+</body>
+</html>

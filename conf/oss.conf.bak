@@ -1,0 +1,6 @@
+[oss]
+aliyunBucket = zhangxiaogou
+aliyunSecretKey = 
+aliyunAccessId = 
+aliyunEndpoint = oss-cn-beijing.aliyuncs.com
+aliyunInternalEndpoint = oss-cn-beijing-internal.aliyuncs.com

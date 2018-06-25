@@ -1,0 +1,103 @@
+<!doctype html>
+{{str2html "<!--[if lt IE 7]>"}}      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> {{str2html "<!--<![endif]-->"}}
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>holachat</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="/static/about/css/normalize.min.css">
+<link rel="stylesheet" href="/static/about/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/about/css/jquery.fancybox.css">
+<link rel="stylesheet" href="/static/about/css/flexslider.css">
+<link rel="stylesheet" href="/static/about/css/styles.css">
+<link rel="stylesheet" href="/static/about/css/queries.css">
+<link rel="stylesheet" href="/static/about/css/etline-font.css">
+<link rel="stylesheet" href="/static/about/bower_components/animate.css/animate.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="/static/about/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<section class="hero">
+	<section class="navigation">
+		<header>
+			<div class="header-content">
+				<div class="logo"><a href="/"><img src="/static/about/img/sedna-logo.png" alt="BMlogo">&nbsp;&nbsp;用户登录</a></div>
+				<div class="header-nav">
+					<nav>
+						<ul class="primary-nav">
+						    <li><a href="http://github.com/virskor">获取项目源码</a></li>
+						</ul>
+						{{if .user}}
+						<ul class="member-actions">
+							<li><a class="btn-white btn-small">Thanks for login</a></li>
+						</ul>
+						{{else}}
+						<ul class="member-actions">
+							<li><a href="/api/oauth/#/login" class="btn-white btn-small">账户登录</a></li>
+							<li><a href="/api/oauth/#/create" class="btn-white btn-small">创建账户</a></li>
+						</ul>
+						{{end}}
+					</nav>
+				</div>
+				<div class="navicon">
+					<a class="nav-toggle" href="#"><span></span></a>
+				</div>
+			</div>
+		</header>
+	</section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="hero-content text-center">
+					<h1>使用一个账户畅享所有服务</h1>
+					<p class="intro">我们将允许您使用一个账户畅享所有的服务! 我们将在最快的时间内发布这个系统级别的用户API节点</p>
+					<a href="#" class="btn btn-accent btn-large">现在开始畅游所有服务吧，后续我们将会重构为Oauth server</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="down-arrow floating-arrow"><a href="#"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="footer-links">
+					<p>Copyright © 2018<br>
+					<a>Licenced</a>&nbsp;Powered by <a>Project holachat</a>.</p>
+				</div>
+			</div>
+			<div class="social-share">
+				<p>Project Not Released</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+	<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title" id="mySmallModalLabel">联系我们</h4>
+        </div>
+      当前我们没有开放更多的联系方式，由于我们的业务均处于紧急开发期间
+	  <p>若有问题请联系技术总监:15272970603</p>
+    </div>
+  </div>
+</div>
+<script src="/static/about/js/vendor/jquery-1.11.2.min.js"></script>
+<script src="/static/about/js/vendor/bootstrap.min.js"></script>
+<script src="/static/about/js/jquery.flexslider-min.js"></script>
+<script src="/static/about/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+<script async src="/static/about/bower_components/retina.js/dist/retina.js"></script>
+<script async src="/static/about/js/jquery.fancybox.pack.js"></script>
+<script async src="/static/about/js/scripts.js"></script>
+<script async src="/static/about/bower_components/classie/classie.js"></script>
+</body>
+</html>

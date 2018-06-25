@@ -1,0 +1,5 @@
+[payment]
+alipartner = 2088602299701459
+alikey = 
+domainurl = https://api.demo.com/api/v1/payment
+aliemail = 
